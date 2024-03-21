@@ -1,0 +1,190 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    min-height: auto;
+    background-image: url(ressource/Background.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.head{
+    width: 100%;
+    height: auto;
+    padding: 10px 80px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.img-contain{
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    padding: 10px;right: 150px;
+}
+
+.Hamburger{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+}
+
+.lien, .btn{
+    margin: 5px;
+    padding: 10px;
+}
+
+.lien{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lien a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.btn{
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    outline: none;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+}
+
+.spn{
+    color: white;
+}
+
+.text-head{
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.text-head p{
+    font-size: 21px;
+}
+
+.txt-contain{
+    width: 100%;
+}
+
+.txt-contain h1{
+    font-size: 58px;
+}
+
+.btn-head{
+    padding-left: 570px;
+    padding-bottom: 120px;
+    font-size: 15px;
+}
+
+.btn-head p{
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+
+.head-end{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+.end-image-head{
+    width: 90%;
+    margin-left: 65px;
+    margin-right: 50px;
+}
+
+.corp{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    padding: 20px 80px;
+}
+
+.corp-texte, .corp-img{
+    margin: 10px;
+}
+
+.corp-texte{
+    width: 700px;
+    align-self: center;
+}
+
+.corp-texte h2{
+    font-size: 35px;
+}
+
+.corp-texte p{
+    font-size: 19px;
+}
+
+.corp-img{
+    width: 500px;
+    margin-top: 70px;
+}
+
+.img-corp-end{
+    width: 100%;
+}
+
+.fin{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-fin{
+    display: flex;
+    gap: 10px;
+}
+
+.txt-fin p{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
